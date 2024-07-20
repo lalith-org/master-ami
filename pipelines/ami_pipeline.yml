@@ -2,7 +2,7 @@
 format_version: 10
 pipelines:
   magic-ami:
-    group: magic-ami
+    group: terraform-setup-expense
     materials:
       git-da613e5:
         git: https://github.com/lalith2211/expense-terraform.git
