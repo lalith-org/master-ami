@@ -1,7 +1,7 @@
 resource "aws_instance" "sample" {
   ami           = data.aws_ami.example.image_id
   instance_type = "t3.micro"
-  security_groups = [data.aws_security_group.allow-all.id]
+  vpc_security_group_ids = [data.aws_security_group.allow-all.id]
 
   tags = {
     Name = "image-ami"
