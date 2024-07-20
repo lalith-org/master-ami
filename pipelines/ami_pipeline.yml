@@ -5,7 +5,7 @@ pipelines:
     group: terraform-setup-expense
     materials:
       git-da613e5:
-        git: https://github.com/lalith2211/expense-terraform.git
+        git: https://github.com/lalith2211/master-ami.git
         shallow_clone: false
         auto_update: true
         branch: main
