@@ -1,7 +1,7 @@
 
 format_version: 10
 pipelines:
-  terraform-apply:
+  magic-ami:
     group: terraform-setup-expense
     materials:
       git-da613e5:
